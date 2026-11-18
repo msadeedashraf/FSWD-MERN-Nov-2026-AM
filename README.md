@@ -15,8 +15,21 @@
 node -v 
 ```
 
+
 ```
 npm -v
+npm --version
+```
+- or 
+```
+npm view npm version
+```
+- if NPM not found, install npm
+- 
+
+
+```
+npm install -g npm@latest
 ```
 
 
