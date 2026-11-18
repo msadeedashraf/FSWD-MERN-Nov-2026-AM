@@ -34,13 +34,40 @@ code --version
 ## 3. Create a React project using Vite
 
 Open the VS Code integrated terminal with **Ctrl + `** or use Windows Terminal.
+- Make sure you are in the right folder 
+
+```
+cd c:\
+mkdir code
+cd c:\code
+```
+- if the folder already exist skip the prvious script
+
+
 
 ```powershell
-cd C:\
-mkdir ReactProjects
-cd ReactProjects
+npm create vite@latest my-react-app
+
+```
+
+- or 
+
+```powershell
 npm create vite@latest my-react-app -- --template react
-cd my-react-app
+
+```
+
+- or 
+
+```powershell
+npm create vite@latest my-react-app -- --template react  --no-interactive
+
+```
+
+- if you are not in the VSCode 
+
+```poweshell
+cd c:\code\my-react-app
 npm install
 code .
 ```
