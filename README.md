@@ -43,6 +43,12 @@ npm create vite@latest hello-world
 
 - ES7+ React/Redux/React-Native snippets
 
+## Install React Developer Tools Extension 
+
+[React Developer Tools](https://react.dev/learn/react-developer-tools)
+
+[Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
 
 ### Useful Resources
 [React Learn](https://react.dev/learn)
